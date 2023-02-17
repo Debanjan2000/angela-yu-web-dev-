@@ -8,13 +8,13 @@
 
 
     <table cellspacing="12px"><!---adding table so that my photo and intro placed side by side not intro below photo
-                               CELLSPACING===>creates space between table elements-->
+                               #CELLSPACING===>creates space between table elements-->
      <tr>
-       <td><img src="https://images.pexels.com/photos/39866/entrepreneur-startup-start-up-man-39866.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Debanjan's Profile pic" width="300" ></td>
+       <td><img src="my pic.png" alt="Debanjan's Profile pic" width="300" ></td>
 
         <td>
         <h1>Debanjan Das</h1>
-        <p> <em>Student in <strong>KIIT</strong></em><!---- Italicsed and emphasized
+        <em>Student in <strong>KIIT</strong></em><!---- Italicsed and emphasized
                                                      <i></i> ->ITALICISE TAG(Italicised the text)
                                                      <em></em>->EMPHASIZE TAG(emphasised+italicised(also confers some meaning hence Better to use))
                                                      Similarly
@@ -22,14 +22,15 @@
                                                      <b></b> ->BOLD TAG(just visually bold the text)
                                                      <strong></strong> ->STRONG TAG(bold+emphasise)====>BETTER TO USE
                                                      ---->
-        </p>
-        <p>I am a third year undergrad in KIIT university,Bhubaneswar. My interests include remote sensing,Robotics,Cyberphysical Systems.I aam also interested to pursue research in future , so my aim is to clear GATE and go to IITs for my masters before pursing PhD(in abroad if I have the skills and opportunities and luck).
-        U can find my resume <a href="https://drive.google.com/file/d/12wUn2WDecJjnkOMWVymZ5BJJkRHCZw3w/view?usp=sharing"
-         target="_blank"> here</a> <!--- <a href="link" target=""> TEXT </a> ====>HYPERTEXT(EXTERNAL LINK) tag
+        <p>  
+        I am a third year undergrad in KIIT university,Bhubaneswar. My interests include remote sensing,Robotics,Cyberphysical Systems.<br>I am also interested to pursue research in future , so my aim is to clear GATE and go to IITs for my masters before pursing PhD(in abroad if<br> I have the skills,opportunities and luck).
+        U can find my resume <a href="https://drive.google.com/file/d/12wUn2WDecJjnkOMWVymZ5BJJkRHCZw3w/view?usp=sharing" 
+        target="_blank"> here</a> <!--- <a href="link" target=""> TEXT </a> ====>HYPERTEXT(EXTERNAL LINK) tag
                                     href=a attribute(write address of the site that will be opened).
                                     target=an attribute(which tells where the redirected site opened same tab(_self),new tab(_blank) etc)
                                     TEXT=>between the tags is the text which will be highlighted and clicking on it will led us to the other external site.-->
-        </p>
+         </p>                           
+         </td>
         </td>
      </tr>
     </table>
@@ -43,7 +44,7 @@
             <ul>
                 <li><strong>First Year:-</strong>C prog</li>
                 <li><strong>Second Year:-</strong>DSA,DM,DLD</li>
-                <li><strong>Third Year:-</strong>OS,COA,DBMS,WEBTECH,HPC,AFL,SE,CDS</li>
+                <li><strong>Third Year:-</strong>OS,COA,DBMS,WEBTECH,HPC,AFL,SE,CD</li>
             </ul>
         </li>   
         <li>SAVM,Chandernagore(2007-2019)</li>
@@ -51,27 +52,17 @@
     
     <hr>
 
-    <h3>HOBBIES</h3>
-    <ol>                              <!-------------------         <ol> indexed with numbers(1,2,3....)
-                                                                    <ol type="i"> indexed with ROMANnumbers(i,ii,ii....)
-                                                                    <ol start="4"> indexing starts with 4,5,.....)
-                                                                        -->
-        <li>Reading abt old world events</li>
-        <li>Playing <a href =" https://www.geoguessr.com/me/profile" target="_blank">geoguesser</a></li>
-    </ol>
-
-    <hr>
-
     <h3><a href="coding profile.html" target="_blank">CODING PROFILES</a></h3> <!----redirected to my different site-->
 
     <hr>
 
     <h3>EDUCATION(Tabular format)</h3>
-    <table border="3px">                                                                  <!--creating TABLES-->
+    <table cellspacing="15">                                                                  <!--creating TABLES-->
         <thead>                                                               <!--Table head start-->
             <tr>                                                               <!--<tr></tr>===>TABLE ROW TAG,creates a new row.-->
-            <th>Names</th>                                             <!--<th></th>===>TABLE head data Tag insert data(cell)horizontally.-->
+            <th>Names</th>                                             <!--<th></th>===>TABLE head data Tag,data(cell) inserted horizontally.-->
             <th>Subjects</th>
+            <th>Grades</th>
             </tr>
         </thead>                                                               <!--Table head finish-->
         <tbody>                                                               <!--Table body start-->
@@ -83,11 +74,19 @@
                         <li><strong>Second Year:-</strong>DSA,DM,DLD</li>
                         <li><strong>Third Year:-</strong>OS,COA,DBMS,WEBTECH,HPC,AFL,SE,CDS</li>
                     </ul>
-                </td>   
+                </td> 
+                <td> 8.89 CGPA</td>  
             </tr>    
             <tr>
                 <td>SAVM,Chandernagore(2007-2019)</td>
-                <td>PCMB</td>
+                <td>
+                    <ul>
+                        <li>Physics</li>
+                        <li>Chem</li>
+                        <li>Maths</li>
+                        <li>Bio</li>
+                    </ul>
+                <td>87.5%(Class 12)<br>90%(Class 10)</td>
             </tr>  
         </tbody>                                                               <!--Table body finish-->
         <tfoot>                                                               <!--Table foot start-->
@@ -136,6 +135,16 @@
         </tr>    
     </table>
 
+    <hr>
+    <br>
+    <br>
+    <br>
+
+    <a href="hobbies.html" target="_blank">HOBBIES</a>
+    <a href="contact.html" target="_blank">CONTACT ME</a>
+    
+
+  <br><br>
 
     
    </body>
